@@ -1,0 +1,139 @@
+.customHtmlStyle {
+  color: #555454;
+  line-height: 1.9;
+  font-weight: normal;
+}
+
+.customHtmlStyle h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.customHtmlStyle h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+.customHtmlStyle h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+.customHtmlStyle h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+.customHtmlStyle h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+.customHtmlStyle h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+
+.customHtmlStyle p {
+  margin: 1em 0;
+}
+
+.customHtmlStyle ul {
+  list-style-type: disc;
+  margin: 1em 0;
+  padding-left: 40px;
+
+  @media screen and (max-width: 640px) {
+    padding-left: 30px;
+  }
+}
+
+.customHtmlStyle ol {
+  list-style-type: decimal;
+  margin: 1em 0;
+  padding-left: 40px;
+}
+
+.customHtmlStyle li {
+  margin: 0.8em 0;
+}
+
+.customHtmlStyle a {
+  @apply text-accent;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.customHtmlStyle a:hover {
+  color: #f00;
+}
+
+.customHtmlStyle img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.customHtmlStyle figcaption {
+  text-align: right;
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-top: 4px;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.customHtmlStyle blockquote {
+  margin: 28px 0;
+  padding: 8px 30px;
+  border-left: 5px solid #ccc;
+  font-style: italic;
+}
+
+.customHtmlStyle table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+.customHtmlStyle th,
+.customHtmlStyle td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.customHtmlStyle th {
+  background-color: #f2f2f2;
+}
+
+.customHtmlStyle tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.customHtmlStyle tr:hover {
+  background-color: #f1f1f1;
+}
+
+.customHtmlStyle pre {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 10px;
+  overflow: auto;
+  margin: 1em 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.customHtmlStyle code {
+  background-color: #f4f4f4;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.customHtmlStyle hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin: 1em 0;
+}
