@@ -36,7 +36,7 @@ const NewsInsightsCard = ({ article }: any) => {
       <div
         className={clsx(
           article?.articleType == "Insights" ? "bg-secondary" : "bg-white",
-          "px-2 py-1 sm:px-3.5 sm:py-1.5 rounded absolute top-[75px] left-4 sm:top-[122px] sm:left-6",
+          "px-2 py-1 sm:px-3.5 sm:py-1.5 rounded absolute top-[75px] left-4 sm:top-[122px] sm:left-6"
         )}
       >
         <Typography
