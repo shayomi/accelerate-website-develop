@@ -62,7 +62,7 @@ const HomeBenefits = () => {
             <Typography variant="p">
               It could be easy to mistake Accelerate Africa for your typical
               one-size fits all accelerator program, but nothing could be more
-              different.
+              differents.
             </Typography>
 
             <Typography variant="p" className="styled-link">
